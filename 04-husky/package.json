@@ -1,0 +1,15 @@
+{
+  "name": "04-husky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "prepare": "husky"
+  },
+  "author": "Tahir",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
