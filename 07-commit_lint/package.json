@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky init && npm run husky-add",
-    "husky-add": "npx husky add .hooks/pre-commit \"npx --no-install commitlint --edit \"$1\"\"" ,
+    "prepare": "husky",
+    "husky-add": "npx husky add .hooks/pre-commit \"npx --no-install commitlint --edit \"$1\"\"",
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
     "dist": "npx tsc"
